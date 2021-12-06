@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+
+
+/* logo */
+
+
+.logo{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+margin: 30px 20%;
+}
+.logo__text{
+    width: 50%;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: #0088A2;
+}
+.logo__image{
+    width: 50%;
+}
+
+
+/* logo */
+
+/* menu */
+
+.menu{
+    width: 100%;
+    margin: 60px 0;
+}
+.menu__item{
+    width: 100%;
+    height: 50px;
+    padding: 0%;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    list-style: none;
+    color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: #808080;
+   
+}
+
+/* menu */
+
+/* image */
+
+.photo{
+    width: 100%;
+    display: flex; 
+}
+.text__child{
+      width: 100%;
+
+}
+.col-4{
+    width: 70%;
+    height: 200px;
+    margin: 0px 15%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-image: url(./img/photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p{
+    padding-top: 80px;
+}
+
+/* image */
+.video{
+    width: 100%;
+}
+.h1{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #0088A2;
+}
+.play{
+width: 100%;
+}
+.image{
+    width: 95%;
+    margin: 0px 2.5%;
+    background-image: url(./img/play-button.png);
+}
+
+
+.question{
+    width: 80%;
+    height:400px ;
+    margin: 150px 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.image__size{
+    width: 100%;
+}
+.question__child{
+    width: 100%;
+    height: 500px;
+}
+
+.col-2{
+    width: 90%;
+    height: 0px;
+}
+/* .col-2_1{
+    margin-top: 100px;
+} */
+
+
+.text_p{
+width: 70%;
+margin:0 15%;
+font-size: 30px;
+text-align: center;
+}
+
+.icon{
+    width: 60%;
+    display: flex;
+    margin: 100px 20%;
+}
+.icon__child-img{
+    width: 50%;
+}
+
+
+.footer{
+    width: 100%;
+    height: 550px;
+    margin: 30px 0 0 0 ;
+    background-color: 
+    #0088A2;
+}
+
+.some{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+   padding: 50px 0px;
+}
+.footer__1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 25%;
+}
+.footer__image{
+width: 100%;
+}
+
+.footer__2{
+    width: 80%;
+    margin: 100px 10%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+.footer__2-child{
+    text-align: center;
+}
